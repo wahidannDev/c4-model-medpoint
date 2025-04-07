@@ -10,5 +10,5 @@ dynamic cMobile {
 
     comBffMobileAuth -> comAuthEmailLogin "Login with email/password"
 
-    autolayout lr
+    autolayout lr 
 }

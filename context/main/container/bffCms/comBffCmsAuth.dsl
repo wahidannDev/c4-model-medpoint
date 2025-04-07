@@ -1,4 +1,4 @@
-comBffMobileAuth = component "Bff mobile Auth" {
+comBffCmsAuth = component "Bff cms Auth" {
     description "Handle /auth"
 
     -> comAuthEmailLogin "Call login with email endpoint"

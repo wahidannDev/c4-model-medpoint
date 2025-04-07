@@ -10,7 +10,9 @@ ssMedpoint = softwareSystem "Medpoint System" {
 
     // bff
     !include container/bffMobile.dsl
+    !include container/bffCms.dsl
 
     // FE (mobile/web)
     !include container/mobile.dsl
+    !include container/cms.dsl
 }
