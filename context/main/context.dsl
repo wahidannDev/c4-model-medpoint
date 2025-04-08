@@ -1,6 +1,9 @@
 ssMedpoint = softwareSystem "Medpoint System" {
     description "Online Reservation system"
 
+    ssMedpoint -> ssExternalPayment "Send payment request"
+    ssMedpoint -> ssExternalMessaging "Send e-mail using"
+
     // resource
     !include container/database.dsl
 
@@ -16,3 +19,5 @@ ssMedpoint = softwareSystem "Medpoint System" {
     !include container/mobile.dsl
     !include container/cms.dsl
 }
+
+

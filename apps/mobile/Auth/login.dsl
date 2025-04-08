@@ -9,6 +9,7 @@ dynamic cMobile {
     comRestUser -> comDatabaseUserTable "Get user"
 
     comBffMobileAuth -> comAuthEmailLogin "Login with email/password"
+    
 
     autolayout lr 
 }

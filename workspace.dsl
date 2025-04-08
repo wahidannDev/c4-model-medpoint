@@ -6,6 +6,7 @@ workspace {
 		!include context/external/context.dsl
 		!include context/main/context.dsl
 		!include context/people/context.dsl
+		
 	}
 	
 	views {
